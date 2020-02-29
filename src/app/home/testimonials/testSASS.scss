@@ -39,3 +39,9 @@ p{
 // .testSection{
 //     position: relative;
 // }
+
+@media screen and (max-width:700px) {
+    .imgPrivate{
+        width: 100%;
+    }
+}
