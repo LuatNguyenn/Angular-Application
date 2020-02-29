@@ -40,8 +40,10 @@ p{
 //     position: relative;
 // }
 
-@media screen and (max-width:700px) {
-    .imgPrivate{
+@media screen and (max-width:770px) {
+    .booking .imgPrivate{
         width: 100%;
+        /* width: 73%; */
+        height: 87%;
     }
 }

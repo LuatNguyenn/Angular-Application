@@ -38,4 +38,12 @@ p {
   height: 400px;
   padding: 20px 0px;
 }
+
+@media screen and (max-width: 770px) {
+  .booking .imgPrivate {
+    width: 100%;
+    /* width: 73%; */
+    height: 87%;
+  }
+}
 /*# sourceMappingURL=testSASS.css.map */
