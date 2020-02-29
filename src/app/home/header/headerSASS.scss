@@ -1,0 +1,106 @@
+$main-color: black;
+$white-color: white;
+$border: 1px solid white;
+$border-transparent: 1px solid transparent;
+$border-transparent-2px: 2px solid;
+// $red-color:rgba(241, 9, 9, 0.842);
+
+$red-color: black;
+
+@mixin hoverHeader {
+  color: $white-color;
+  border: $border;
+  background-color: $main-color;
+}
+
+header {
+  background-color: $main-color;
+  color: $white-color;
+}
+
+.header-left i {
+  margin-right: 4px;
+
+  &:hover {
+    @include hoverHeader;
+  }
+}
+
+
+.header-right i {
+  margin-left: 2px;
+  padding: 8px 10px;
+  font-size: 21px;
+  border: $border-transparent;
+  transition: all 0.7s;
+
+  &:hover {
+    @include hoverHeader;
+  }
+}
+
+.navbar-brand--logo p {
+  color: $main-color;
+  font-size: 16px;
+  margin-top: -5px;
+}
+
+.navbar-light {
+  .nav-link {
+    font-weight: bold;
+    color: #282828;
+    border-bottom: $border-transparent-2px transparent;
+    transition: all 0.5s;
+
+    &:hover {
+      color: $red-color;
+      border-bottom: $border-transparent-2px $red-color;
+    }
+  }
+}
+
+.navbar-nav--menu {
+  margin-top: -19px;
+}
+
+.navbar-brand--logo {
+  @media screen and (min-width:576px) and (max-width:768px) {
+    h1 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 13px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+      font-size: 12px;
+    }
+
+    .navbar-nav--menu .nav-item {
+      margin-left: -4px;
+    }
+  }
+}
+
+@media screen and(max-width:367px) {
+  #myMenu .navbar-nav .nav-item .nav-link{
+    font-size: 14px;
+    padding: 3px;
+  }
+  .navbar-toggler span{
+    margin-bottom: 0px;
+  }
+  .navbar-light .navbar-toggler {
+    margin-bottom: 20px;
+  }
+}
+
+.text-center{
+  h1{
+    color: $red-color;
+  }
+  p{
+    color: $red-color;
+  }
+}

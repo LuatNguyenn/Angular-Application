@@ -1,0 +1,147 @@
+.contact-info img {
+  height: 100%;
+  width: 100%;
+}
+
+.contact-info h3 {
+  font-size: 1.4em;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.contact-info__detail {
+  width: 100%;
+  height: 100%;
+  background-color: #252424;
+  padding: 20px;
+}
+
+.contact-info__detail h4 {
+  color: white;
+  font-size: 16px;
+  margin-left: 15px;
+  letter-spacing: 1px;
+  padding: 2px 0px;
+}
+
+.contact-info__detail div i {
+  font-size: 1.4em;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.contact-input {
+  height: 48px;
+}
+
+.contact-input textarea {
+  width: 100%;
+  height: 70%;
+}
+
+.contact-input button {
+  width: 100%;
+  height: 17%;
+  padding: 8px;
+}
+
+.contact-section .contact__line {
+  height: 2px;
+  width: 100px;
+  background-color: black;
+  margin: auto;
+}
+
+.contact-social .contact-fb {
+  color: blue;
+  border: none;
+}
+
+.contact-social .contact-fb:hover {
+  color: white;
+  background-color: blue;
+}
+
+.contact-social .contact-twitter {
+  color: #4f4fe7;
+  border: none;
+}
+
+.contact-social .contact-twitter:hover {
+  color: white;
+  background-color: #4f4fe7;
+}
+
+.contact-social .contact-lin {
+  color: blue;
+  border: none;
+}
+
+.contact-social .contact-lin:hover {
+  color: white;
+  background-color: blue;
+}
+
+.contact-social .contact-insta {
+  color: orangered;
+  border: none;
+}
+
+.contact-social .contact-insta:hover {
+  color: white;
+  background-color: orangered;
+}
+
+.contact-social i {
+  background-color: white;
+  padding: 8px 10px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+/*MAP SECTION*/
+.contact-map {
+  width: 100%;
+  margin-top: 223px;
+}
+
+.contact-map iframe {
+  width: 100%;
+  height: 500px;
+}
+
+@media screen and (max-width: 767px) {
+  .contact-section h1 {
+    font-size: 22px;
+  }
+  .contact-input button {
+    margin-top: -15px;
+    height: 43%;
+  }
+  .contact-map {
+    margin-top: 350px;
+  }
+}
+
+.btn-submit {
+  color: white;
+  background-color: black;
+  padding: 0px !important;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.btn-submit:hover {
+  color: white;
+  background-color: #666060;
+}
+
+hr {
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 3 !important;
+}
+/*# sourceMappingURL=contact-us.component.css.map */

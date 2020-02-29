@@ -1,0 +1,117 @@
+// $main-color: #b90d27;
+$main-color: black;
+.img-fluid--custom {
+  height: 700px;
+  width: 100%;
+  filter: brightness(85%);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*Caption custom*/
+.carousel-caption--custom {
+  bottom: 194px;
+
+  h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+  }
+
+  p {
+    font-size: 1em;
+    letter-spacing: 2px;
+    line-height: 1.8em;
+  }
+}
+
+.btn-read--custom {
+  border-radius: unset;
+  transition: all 0.5s;
+
+  &:hover {
+    background-color: $main-color;
+    color: white;
+  }
+}
+
+/*Custom modal*/
+.modal-text--custom p {
+  max-width: 0;
+  padding-top: 18px;
+}
+
+.modal-header--custom {
+  color: $main-color;
+}
+
+/*Responsive for photo and caption*/
+@media screen and (max-width:575px) {
+    .carousel-caption--custom {
+        bottom: 13%;
+    
+        h1 {
+          font-size: 19px;
+          font-weight: normal;
+        }
+    
+        p {
+          font-size: 13px;
+          letter-spacing: 1px;
+          line-height: 21px;
+        }
+      }
+    
+      .img-fluid--custom {
+        height: 327px;
+    
+      }
+    
+      .btn-read--custom {
+        font-size: 11px;
+        padding: 0.2rem 0.5rem;
+      }
+    
+      .carousel-indicators--custom {
+        bottom: 3%;
+      }
+      .carousel-indicators li{
+          width: 22px;
+      }
+}
+
+@media screen and (max-width:768px) {
+    .carousel-caption--custom {
+        bottom: 13%;
+    
+        h1 {
+          font-size: 19px;
+          font-weight: normal;
+        }
+    
+        p {
+          font-size: 13px;
+          letter-spacing: 1px;
+          line-height: 21px;
+        }
+      }
+    
+      .img-fluid--custom {
+        height: 327px;
+    
+      }
+    
+      .btn-read--custom {
+        font-size: 11px;
+        padding: 0.2rem 0.5rem;
+      }
+    
+      .carousel-indicators--custom {
+        bottom: 3%;
+      }
+      .carousel-indicators li{
+          width: 22px;
+      }
+}
+
+
+

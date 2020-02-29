@@ -1,0 +1,74 @@
+/*OUR_START SECTION*/
+$main-color: rgba(241, 9, 9, 0.842);
+
+
+
+.star-section {
+  min-height: 500px;
+  background-image: url(../../../assets/img/Bavettes_sandynoto_1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 4rem 15px;
+}
+
+.star-title {
+  h1 {
+    font-size: 37px;
+    color: $main-color;
+    font-weight: 500;
+    line-height: 1.2;
+  
+  }
+
+  p {
+    font-size: 20px;
+    color: white;
+    line-height: 1.8em;
+    padding: 2px 15px;
+    letter-spacing: 3px;
+  }
+}
+
+.start__line {
+  height: 2px;
+  width: 70px;
+  background-color: rgb(250, 241, 241);
+  margin: auto;
+}
+
+.ourstar-info {
+  i {
+    color: white;
+    font-size: 50px;
+  }
+
+  p {
+    margin-top: 15px;
+    color: white;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .star-title{
+    h1{
+      font-size: 28px;
+    }
+    p{
+      font-size: 15px;
+      line-height: 18px;
+      letter-spacing: 2px;
+    }
+  }
+  .ourstar-info{
+    i{
+      font-size: 37px;
+    }
+    h3{
+      font-size: 26px;
+    }
+    p{
+      font-size: 23px;
+    }
+  }
+}

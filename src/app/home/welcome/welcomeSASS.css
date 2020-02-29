@@ -1,0 +1,135 @@
+.welcome h1 {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 320px) {
+  .welcome h1 {
+    font-size: 21px;
+  }
+}
+
+.welcome h1 .text-center--custom {
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 320px) {
+  .welcome h1 .text-center--custom {
+    font-size: 11px;
+  }
+}
+
+.welcome h1 .text-center--welcome {
+  font-size: 17px;
+  color: #999;
+  line-height: 1.8em;
+  padding: 2px 51px;
+}
+
+/**food item section**/
+.food-item i {
+  font-size: 30px;
+  color: rgba(241, 9, 9, 0.842);
+}
+
+.food-item h2 {
+  color: rgba(241, 9, 9, 0.842);
+}
+
+.food-item h3 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 320px) {
+  .carousel-caption--custom {
+    bottom: 13%;
+  }
+  .carousel-caption--custom h1 {
+    font-size: 1.5rem;
+    font-weight: normal;
+  }
+  .carousel-caption--custom p {
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    line-height: 1.3em;
+  }
+  .img-fluid--custom {
+    height: 300px;
+  }
+  .btn-read--custom {
+    font-size: 0.5em;
+    padding: 0 0.5rem;
+  }
+  .carousel-indicators--custom {
+    bottom: 30%;
+  }
+  food-item i {
+    font-size: 27px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 414px) {
+  .carousel-caption--custom {
+    bottom: 13%;
+  }
+  .carousel-caption--custom h1 {
+    font-weight: normal;
+  }
+  .carousel-caption--custom p {
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    line-height: 1.3em;
+  }
+  .img-fluid--custom {
+    height: 300px;
+  }
+  .btn-read--custom {
+    font-size: 0.5em;
+    padding: 0 0.5rem;
+  }
+  .carousel-indicators--custom {
+    bottom: 30%;
+  }
+  .welcome h1 {
+    font-size: 21px;
+  }
+  .welcome .text-center--custom {
+    letter-spacing: 2px;
+    font-size: 11px;
+  }
+  .welcome .text-center--welcome {
+    font-size: 12px;
+    color: #999;
+    line-height: 1.2em;
+    padding: 0px 6px;
+  }
+  .food-item i {
+    font-size: 27px;
+  }
+}
+
+.welcome__line {
+  height: 2px;
+  width: 100px;
+  background-color: black;
+  margin: auto;
+}
+
+.welcome-section {
+  padding: 20px 15px;
+}
+
+@media screen and (max-width: 991px) {
+  .food-item h2 {
+    font-size: 17px;
+    margin: 9px 0;
+  }
+  .food-item p {
+    font-size: 15px;
+  }
+  .food-item h3 {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=welcomeSASS.css.map */

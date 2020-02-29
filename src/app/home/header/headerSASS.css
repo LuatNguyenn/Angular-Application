@@ -1,0 +1,89 @@
+header {
+  background-color: black;
+  color: white;
+}
+
+.header-left i {
+  margin-right: 4px;
+}
+
+.header-left i:hover {
+  color: white;
+  border: 1px solid white;
+  background-color: black;
+}
+
+.header-right i {
+  margin-left: 2px;
+  padding: 8px 10px;
+  font-size: 21px;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.header-right i:hover {
+  color: white;
+  border: 1px solid white;
+  background-color: black;
+}
+
+.navbar-brand--logo p {
+  color: black;
+  font-size: 16px;
+  margin-top: -5px;
+}
+
+.navbar-light .nav-link {
+  font-weight: bold;
+  color: #282828;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.navbar-light .nav-link:hover {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+.navbar-nav--menu {
+  margin-top: -19px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .navbar-brand--logo h1 {
+    font-size: 30px;
+  }
+  .navbar-brand--logo p {
+    font-size: 13px;
+  }
+  .navbar-brand--logo .navbar-light .navbar-nav .nav-link {
+    font-size: 12px;
+  }
+  .navbar-brand--logo .navbar-nav--menu .nav-item {
+    margin-left: -4px;
+  }
+}
+
+@media screen and (max-width: 367px) {
+  #myMenu .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    padding: 3px;
+  }
+  .navbar-toggler span {
+    margin-bottom: 0px;
+  }
+  .navbar-light .navbar-toggler {
+    margin-bottom: 20px;
+  }
+}
+
+.text-center h1 {
+  color: black;
+}
+
+.text-center p {
+  color: black;
+}
+/*# sourceMappingURL=headerSASS.css.map */

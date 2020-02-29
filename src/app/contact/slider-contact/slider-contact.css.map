@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAA;EACN,gBAAgB,EAAE,sCAAsC;EACxD,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,eAAe,EAAE,KAAK;CAEzB",
+    "sources": [
+        "slider-contact.scss"
+    ],
+    "names": [],
+    "file": "slider-contact.css"
+}

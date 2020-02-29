@@ -1,0 +1,41 @@
+.largeImg {
+  background-image: url(../../../assets/img/feestdagen-diner.jpg);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.smallImg {
+  background-image: url(../../../assets/img/220675.jpg);
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  background-attachment: fixed;
+  display: block;
+}
+
+.smallImg h1 {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 41px;
+}
+
+p {
+  text-align: center;
+  font-family: 'Sriracha', cursive;
+  padding-top: 30px;
+  font-size: 24px;
+}
+
+.booking {
+  text-align: center;
+}
+
+.booking img {
+  width: 700px;
+  height: 400px;
+  padding: 20px 0px;
+}
+/*# sourceMappingURL=testSASS.css.map */

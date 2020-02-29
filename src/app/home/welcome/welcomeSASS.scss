@@ -1,0 +1,186 @@
+$main-color: rgba(241, 9, 9, 0.842);
+   .welcome h1 {
+     font-size: 30px;
+
+     @media screen and (max-width:320px) {
+       font-size: 21px;
+     }
+
+     .text-center--custom {
+       letter-spacing: 2px;
+       font-size: 15px;
+
+       @media screen and (max-width:320px) {
+         font-size: 11px;
+       }
+     }
+
+     .text-center--welcome {
+       font-size: 17px;
+       color: #999;
+       line-height: 1.8em;
+       padding: 2px 51px;
+     }
+   }
+
+   /**food item section**/
+   .food-item {
+     i {
+       font-size: 30px;
+       color: $main-color;
+     }
+     h2{
+         color: $main-color;
+     }
+
+    //  h2 {
+    //     color: #ff4f81;
+    //     font-weight: 600;
+    //     margin: 15px 0;
+    //  }
+
+     h3 {
+        font-size: 1em;
+        font-weight: bold;
+     }
+
+    //  p {
+    //    font-size: 1rem;
+    //  }
+   }
+
+   @media screen and (max-width:320px) {
+     .carousel-caption--custom {
+       bottom: 13%;
+
+       h1 {
+         font-size: 1.5rem;
+         font-weight: normal;
+       }
+
+       p {
+         font-size: 0.8rem;
+         letter-spacing: 1.5px;
+         line-height: 1.3em;
+       }
+
+     }
+
+     .img-fluid--custom {
+       height: 300px;
+
+     }
+
+     .btn-read--custom {
+       font-size: 0.5em;
+       padding: 0 0.5rem;
+     }
+
+     .carousel-indicators--custom {
+       bottom: 30%;
+     }
+
+     food-item {
+       i {
+         font-size: 27px;
+       }
+
+    //    h2 {
+    //      font-size: 1.2rem;
+    //    }
+
+    //    h3
+    //    {
+    //      font-size: 0.9rem;
+    //    }
+
+     }
+   }
+
+   @media screen and (min-width:321px) and (max-width:414px) {
+     .carousel-caption--custom {
+       bottom: 13%;
+
+       h1 {
+         font-weight: normal;
+       }
+
+       p {
+         font-size: 0.8rem;
+         letter-spacing: 1.5px;
+         line-height: 1.3em;
+       }
+     }
+
+     .img-fluid--custom {
+       height: 300px;
+
+     }
+
+     .btn-read--custom {
+       font-size: 0.5em;
+       padding: 0 0.5rem;
+     }
+
+     .carousel-indicators--custom {
+       bottom: 30%;
+     }
+
+     .welcome {
+       h1 {
+         font-size: 21px;
+       }
+
+       .text-center--custom {
+         letter-spacing: 2px;
+         font-size: 11px;
+       }
+
+       .text-center--welcome {
+         font-size: 12px;
+         color: #999;
+         line-height: 1.2em;
+         padding: 0px 6px;
+       }
+     }
+
+     .food-item {
+       i {
+         font-size: 27px;
+       }
+
+    //    h2 {
+    //      font-size: 1.2rem;
+    //    }
+
+    //    h3
+    //    {
+    //      font-size: 0.9rem;
+    //    }
+     }
+   }
+
+   .welcome__line {
+     height: 2px;
+     width: 100px;
+     background-color: black;
+     margin: auto;
+   }
+   .welcome-section {
+    padding: 20px 15px;
+}
+
+@media screen and (max-width:991px) {
+    .food-item{
+        h2{
+            font-size: 17px;
+            margin: 9px 0;
+        }
+        p{
+            font-size: 15px;
+        }
+        h3{
+            font-size: 15px;
+        }
+    }
+}

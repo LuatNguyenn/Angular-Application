@@ -1,0 +1,103 @@
+.img-fluid--custom {
+  height: 700px;
+  width: 100%;
+  -webkit-filter: brightness(85%);
+          filter: brightness(85%);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*Caption custom*/
+.carousel-caption--custom {
+  bottom: 194px;
+}
+
+.carousel-caption--custom h1 {
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+.carousel-caption--custom p {
+  font-size: 1em;
+  letter-spacing: 2px;
+  line-height: 1.8em;
+}
+
+.btn-read--custom {
+  border-radius: unset;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.btn-read--custom:hover {
+  background-color: black;
+  color: white;
+}
+
+/*Custom modal*/
+.modal-text--custom p {
+  max-width: 0;
+  padding-top: 18px;
+}
+
+.modal-header--custom {
+  color: black;
+}
+
+/*Responsive for photo and caption*/
+@media screen and (max-width: 575px) {
+  .carousel-caption--custom {
+    bottom: 13%;
+  }
+  .carousel-caption--custom h1 {
+    font-size: 19px;
+    font-weight: normal;
+  }
+  .carousel-caption--custom p {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 21px;
+  }
+  .img-fluid--custom {
+    height: 327px;
+  }
+  .btn-read--custom {
+    font-size: 11px;
+    padding: 0.2rem 0.5rem;
+  }
+  .carousel-indicators--custom {
+    bottom: 3%;
+  }
+  .carousel-indicators li {
+    width: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-caption--custom {
+    bottom: 13%;
+  }
+  .carousel-caption--custom h1 {
+    font-size: 19px;
+    font-weight: normal;
+  }
+  .carousel-caption--custom p {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 21px;
+  }
+  .img-fluid--custom {
+    height: 327px;
+  }
+  .btn-read--custom {
+    font-size: 11px;
+    padding: 0.2rem 0.5rem;
+  }
+  .carousel-indicators--custom {
+    bottom: 3%;
+  }
+  .carousel-indicators li {
+    width: 22px;
+  }
+}
+/*# sourceMappingURL=sliderSASS.css.map */
