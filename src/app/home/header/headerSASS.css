@@ -92,4 +92,8 @@ header {
     height: 685px;
   }
 }
+
+#name {
+  font-family: "Lacquer";
+}
 /*# sourceMappingURL=headerSASS.css.map */
