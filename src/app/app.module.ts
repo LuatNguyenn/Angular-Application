@@ -11,6 +11,7 @@ import { PagesModule } from './pages/pages.module';
 import { ItemListComponent } from './pages/item-list/item-list.component';
 const routes: Routes = [
   {path: '', component: MainPageComponent},
+  {path:'main', component:MainPageComponent},
   {path:'contact',component:ContactLayoutComponent},
   {path:'pages',component:ItemListComponent}
 ]
