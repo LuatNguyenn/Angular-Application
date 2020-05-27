@@ -1,4 +1,4 @@
-#Project Link: http://www.bartown.xyz/
+
 
 # MyApp
 
